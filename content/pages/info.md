@@ -296,17 +296,13 @@ sections:
 
           *   Student Software Developer - Ubica Robotics
 
+          **2020-2021**
+
+          *   Packing Packages, Flipping Burgers
+
           **2019-2020**
 
           *   Academic Instructor - SLIIT
-
-          <div style="text-align: right"></div>
-
-          </div>
-
-          **2011**
-
-          *   flipping burgers
 
         styles:
           self:
