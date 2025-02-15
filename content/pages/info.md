@@ -265,14 +265,17 @@ sections:
           *   M.Sc Control, Microelectronics & Microsystems
 
 
-          <div style="text-align: right"> Universität Bremen</div>
+          <div style="text-align: right">Universität Bremen</div>
 
 
           **2015-2018**
 
 
-          *   B.Sc Electrical and Electronic Engineering - Sri Lanka Institute
-          of Information Technology
+          *   B.Sc Electrical and Electronic Engineering 
+
+
+          <div style="text-align: right"> Sri Lanka Institute of Information
+          Technology</div>
 
         styles:
           self:
