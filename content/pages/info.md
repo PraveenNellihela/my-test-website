@@ -215,7 +215,7 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: Containers
+        label: Containers & Kubernetes
         url: >-
           https://www.credly.com/badges/dd2e477b-e6f2-4977-818d-997c2cb94eab/linked_in_profile
       - type: Label
