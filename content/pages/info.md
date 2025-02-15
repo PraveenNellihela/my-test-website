@@ -258,7 +258,7 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: "**2020-2023**\n\n*   M.Sc Control, Microelectronics & Microsystems `Universität Bremen`\n\n**2015-2018**\n\n*   B.Sc Electrical and Electronic Engineering                                                                                                                                                                     \_`Sri Lanka Institute of Information Technology`\n\n"
+        text: "**2020-2023**\n\n*   M.Sc Control, Microelectronics & Microsystems `Universität Bremen`\n\n**2015-2018**\n\n<pre>\n*   B.Sc Electrical and Electronic Engineering                                                                                                                                                                     \_`Sri Lanka Institute of Information Technology`\n</pre>\n\n\n"
         styles:
           self:
             textAlign: left
