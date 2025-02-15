@@ -64,7 +64,7 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
+        url: /images/csm_csm_Universitaet_Bremen_c3190972fe_e6310ff9b9.png
         altText: Logo one
         caption: Logo one
       - type: ImageBlock
