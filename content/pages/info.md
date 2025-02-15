@@ -215,6 +215,8 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
+        label: DevOps
+      - type: Label
         label: Containers & Kubernetes
         url: >-
           https://www.credly.com/badges/dd2e477b-e6f2-4977-818d-997c2cb94eab/linked_in_profile
@@ -226,8 +228,6 @@ sections:
         label: Linux
       - type: Label
         label: Python
-      - type: Label
-        label: DevOps
       - type: Label
         label: Swift
   - type: DividerSection
