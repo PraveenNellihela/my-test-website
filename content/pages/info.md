@@ -348,7 +348,15 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions: []
+        actions:
+          - type: Link
+            label: Learn more
+            altText: ''
+            url: 'https://github.com/PraveenNellihela'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            elementId: ''
         styles:
           self:
             textAlign: left
