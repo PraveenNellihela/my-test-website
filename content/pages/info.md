@@ -343,7 +343,7 @@ sections:
         actions:
           - type: Link
             label: GitLab
-            url: 'https://github.com/'
+            url: 'https://gitlab.com/praveennellihela'
         styles:
           self:
             textAlign: left
