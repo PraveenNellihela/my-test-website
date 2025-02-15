@@ -262,7 +262,10 @@ sections:
           **2020-2023**
 
 
-          *   M.Sc Control, Microelectronics & Microsystems - Universität Bremen
+          *   M.Sc Control, Microelectronics & Microsystems
+
+
+          <div style="text-align: right"> Universität Bremen</div>
 
 
           **2015-2018**
