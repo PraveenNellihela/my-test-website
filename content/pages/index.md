@@ -16,8 +16,8 @@ sections:
     title: Welcome.
     subtitle: >-
       I was an Electrical and Electronic Engineer -> Software Developer -> now,
-      a Devops Engineer. , born in Sri Lanka, living in Germany. This site
-      contains my thoughts, guides and everything in between.
+      a Devops Engineer.I was born in Sri Lanka -> now, living in Germany. This
+      site contains my thoughts, guides and everything in between.
     styles:
       self:
         height: auto
