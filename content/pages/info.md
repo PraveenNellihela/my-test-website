@@ -228,8 +228,6 @@ sections:
         label: Python
       - type: Label
         label: Linux
-      - type: Label
-        label: Swift
   - type: DividerSection
     styles:
       self:
