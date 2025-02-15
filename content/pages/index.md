@@ -15,7 +15,8 @@ sections:
     backgroundSize: full
     title: Welcome.
     subtitle: >-
-      I am an Electrical and Electronic Engineer turned Software Developer. This
+      I am an Electrical and Electronic Engineer turned Software Developer.
+      Currently, I work as a Devops Engineer at a German Robotics company. This
       site contains my thoughts, guides and everything in between.
     styles:
       self:
