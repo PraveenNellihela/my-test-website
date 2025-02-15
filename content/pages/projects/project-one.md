@@ -9,7 +9,7 @@ description: >-
   scikit-learn. Various parameters were tuned to offer more accuracy.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/ed-robertson-C8LoWxIqTSs-unsplash.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
