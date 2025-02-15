@@ -288,18 +288,17 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |-
+        text: |+
+          **2020-2023**
+
+          *   M.Sc Control, Microelectronics & Microsystems
+
           **2015-2018**
 
-          * ba computer sciense at a semi fancy school
+          *   B.Sc Electrical and Electronic Engineering
 
-          **2014**
 
-          * react certificate somewhere
 
-          **2011**
-
-          * my highschool
         styles:
           self:
             textAlign: left
