@@ -268,8 +268,8 @@ sections:
           **2015-2018**
 
 
-          *   B.Sc Electrical and Electronic Engineering `Sri Lanka Institute of
-          Information Technology`
+          *   B.Sc Electrical and Electronic Engineering            `Sri Lanka
+          Institute of Information Technology`
 
         styles:
           self:
