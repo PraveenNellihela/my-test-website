@@ -359,7 +359,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/in/praveen-nellihela/'
         styles:
           self:
             textAlign: left
