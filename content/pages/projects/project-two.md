@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Decision-Support-System
-colors: colors-a
+colors: colors-b
 date: '2022-02-23'
 client: Master Project
 description: >-
