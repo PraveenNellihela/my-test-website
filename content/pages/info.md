@@ -262,12 +262,12 @@ sections:
           **2020-2023**
 
           *   M.Sc Control, Microelectronics & Microsystems
+              *   Universität Bremen
 
           **2015-2018**
 
           *   B.Sc Electrical and Electronic Engineering
-
-
+              *   Sri Lanka Institute of Information Technology
 
         styles:
           self:
