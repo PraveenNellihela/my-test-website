@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Heart Disease Prediction
 colors: colors-a
-date: '2022-01-15'
+date: '2022-01-29'
 client: Awesome client
 description: >-
   Prediction of heart disease from SVM and deicision tree classifiers with
