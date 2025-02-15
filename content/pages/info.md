@@ -208,8 +208,6 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'DevOps '
-      - type: Label
         label: Containers
       - type: Label
         label: Microsoft Office
