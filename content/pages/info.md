@@ -330,6 +330,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
+    title: Education
   - type: DividerSection
     styles:
       self:
