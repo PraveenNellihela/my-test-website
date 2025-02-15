@@ -258,17 +258,7 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Education:'
-        text: |+
-          **2020-2023**
-
-          *   M.Sc Control, Microelectronics & Microsystems `Universität Bremen`
-
-          **2015-2018**
-
-          *   B.Sc Electrical and Electronic Engineering            
-
-          `Sri Lanka Institute of Information Technology`
-
+        text: "**2020-2023**\n\n*   M.Sc Control, Microelectronics & Microsystems `Universität Bremen`\n\n**2015-2018**\n\n*   B.Sc Electrical and Electronic Engineering \\\_\n\n     `Sri Lanka Institute of Information Technology`\n\n"
         styles:
           self:
             textAlign: left
