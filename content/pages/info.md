@@ -221,7 +221,7 @@ sections:
       - type: Label
         label: Infrastructure as Code
       - type: Label
-        label: Next.js
+        label: Ros
       - type: Label
         label: Netlify
       - type: Label
