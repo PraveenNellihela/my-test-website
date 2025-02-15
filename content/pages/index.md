@@ -15,8 +15,8 @@ sections:
     backgroundSize: full
     title: Welcome.
     subtitle: >-
-      I am an Devops Engineer, living in Germany. This site contains my
-      thoughts, guides and everything in between.
+      I am an Devops Engineer, born in Sri Lanka, living in Germany. This site
+      contains my thoughts, guides and everything in between.
     styles:
       self:
         height: auto
