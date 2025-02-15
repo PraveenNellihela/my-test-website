@@ -287,46 +287,24 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: >+
+        text: |+
           **2024-Current**
 
-
-          *   DevOps Engineer 
-
-
-          <div style="text-align: right">Ubica Robotics</div>
-
+          *   DevOps Engineer - Ubica Robotics
 
           **2021-2023**
 
-
-          *   Student Software Developer
-
-
-          <div style="text-align: right">Ubica Robotics</div>
-
+          *   Student Software Developer - Ubica Robotics
 
           **2019-2020**
 
+          *   Academic Instructor - SLIIT
 
-          *   Academic Instructure
-
-
-          <div style="text-align: right">Sri Lanka Institure of Information
-          Technology</div>
-
-
-
-
-          <div style="text-align: right">
-
-
+          <div style="text-align: right"></div>
 
           </div>
 
-
           **2011**
-
 
           *   flipping burgers
 
