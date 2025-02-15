@@ -227,7 +227,7 @@ sections:
       - type: Label
         label: Python
       - type: Label
-        label: C++
+        label: DevOps
       - type: Label
         label: Swift
   - type: DividerSection
