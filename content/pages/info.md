@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      ### I was born and raised in Sri Lanka. I am now based in Germany. When
+      #### I was born and raised in Sri Lanka. I am now based in Germany. When
       I’m not coding or tinkering with tech, I like to travel around the world.
 
     media:
