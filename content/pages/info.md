@@ -342,7 +342,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
+            label: GitLab
             url: 'https://github.com/'
         styles:
           self:
