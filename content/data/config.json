@@ -80,7 +80,7 @@
             "phoneNumber": "850-123-5021",
             "phoneAltText": "My phone number",
             "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
+            "emailAltText": "",
             "address": "Bremen, Germany",
             "addressAltText": "My address"
         },
