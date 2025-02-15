@@ -35,8 +35,8 @@
             {
                 "type": "Social",
                 "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "label": "GitLab",
+                "url": "https://gitlab.com/praveennellihela",
                 "icon": "github"
             }
         ],
