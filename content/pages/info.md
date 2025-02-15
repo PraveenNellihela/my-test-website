@@ -352,7 +352,7 @@ sections:
         styles:
           self:
             textAlign: left
-        title: Twitter
+        title: ''
       - type: FeaturedItem
         actions:
           - type: Link
