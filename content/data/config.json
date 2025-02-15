@@ -52,7 +52,7 @@
             {
                 "type": "Link",
                 "label": "Info",
-                "url": "/info",
+                "url": "nellihela.netlify.app/info",
                 "altText": ""
             },
             {
