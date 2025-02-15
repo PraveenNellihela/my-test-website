@@ -11,7 +11,7 @@ description: >-
   obstacles and merging similar detections.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/brian-suman-8eId7mS_FCY-unsplash.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
