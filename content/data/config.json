@@ -69,6 +69,16 @@
             },
             {
                 "type": "Link",
+                "label": "Learn more",
+                "altText": "",
+                "url": "https://gitlab.com/praveennellihela",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
                 "label": "GitHub",
                 "url": "https://github.com/PraveenNellihela",
                 "altText": "Netlify templates"
