@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     text: >+
       ## Hey! I’m a `DevOps Engineer`. I’m currently working in a Robotics
-      Company. I’ve been born and raised in Sri Lanka, and I’m based in Germany.
+      Company. I was born and raised in Sri Lanka, and, now, based in Germany.
       When I’m not coding or tinkering with tech, I like to travel around the
       world.
 
