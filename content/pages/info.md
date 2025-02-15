@@ -208,7 +208,7 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: DevOps
+        label: 'DevOps '
       - type: Label
         label: Containers
       - type: Label
