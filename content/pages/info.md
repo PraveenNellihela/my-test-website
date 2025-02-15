@@ -287,26 +287,49 @@ sections:
               - pr-0
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
-          **Current**
+        text: >+
+          **2024-Current**
 
-          * freelance @freelance.me
 
-          **2018-2021**
+          *   DevOps Engineer 
 
-          * fullstack at this startup
 
-          **2015**
+          <div style="text-align: right">Ubica Robotics</div>
 
-          * senior front-end at this place
 
-          **2013**
+          **2021-2023**
 
-          * intern developer at a big company
+
+          *   Student Software Developer
+
+
+          <div style="text-align: right">Ubica Robotics</div>
+
+
+          **2019-2020**
+
+
+          *   Academic Instructure
+
+
+          <div style="text-align: right">Sri Lanka Institure of Information
+          Technology</div>
+
+
+
+
+          <div style="text-align: right">
+
+
+
+          </div>
+
 
           **2011**
 
-          * flipping burgers
+
+          *   flipping burgers
+
         styles:
           self:
             textAlign: left
