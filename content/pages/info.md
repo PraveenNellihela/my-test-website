@@ -353,7 +353,7 @@ sections:
           self:
             textAlign: left
         title: ''
-        subtitle: TWITTER
+        subtitle: ''
       - type: FeaturedItem
         actions:
           - type: Link
