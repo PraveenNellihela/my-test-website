@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Decision-Support-System
 colors: colors-a
 date: '2021-12-20'
-client: Awesome client
+client: Master Project
 description: >-
   A Decision Support System (DSS) that uses multiple onboard train sensors and
   UAV obstacle detection data to generate GPS coordinates for obstacle
