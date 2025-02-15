@@ -262,19 +262,16 @@ sections:
           **2020-2023**
 
 
-          *   M.Sc Control, Microelectronics & Microsystems
-
-
-          <div style="text-align: right">Universität Bremen</div>
+          *   M.Sc Control, Microelectronics & Microsystems `Universität Bremen`
 
 
           **2015-2018**
 
 
-          *   B.Sc Electrical and Electronic Engineering 
+          *   B.Sc Electrical and Electronic Engineering
 
 
-          <div style="text-align: right"> Sri Lanka Institute of Information
+          <div style="text-align: right">Sri Lanka Institute of Information
           Technology</div>
 
         styles:
