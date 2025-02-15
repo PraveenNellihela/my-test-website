@@ -350,7 +350,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Learn more
+            label: GitHub
             altText: ''
             url: 'https://github.com/PraveenNellihela'
             showIcon: false
