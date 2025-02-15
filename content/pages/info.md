@@ -225,9 +225,9 @@ sections:
       - type: Label
         label: Ros
       - type: Label
-        label: Linux
-      - type: Label
         label: Python
+      - type: Label
+        label: Linux
       - type: Label
         label: Swift
   - type: DividerSection
