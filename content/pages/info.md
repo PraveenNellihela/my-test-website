@@ -46,6 +46,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    title: Hey! I’m a DevOps Engineer.
   - type: DividerSection
     styles:
       self:
