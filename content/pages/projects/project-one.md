@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Heart Disease Prediction
 colors: colors-a
 date: '2022-01-29'
-client: Awesome client
+client: ''
 description: >-
   Prediction of heart disease from SVM and deicision tree classifiers with
   scikit-learn. Various parameters were tuned to offer more accuracy.
