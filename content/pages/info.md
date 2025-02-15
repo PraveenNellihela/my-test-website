@@ -223,7 +223,7 @@ sections:
       - type: Label
         label: Ros
       - type: Label
-        label: Netlify
+        label: Linux
       - type: Label
         label: Pancakes
       - type: Label
