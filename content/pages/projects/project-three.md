@@ -11,7 +11,7 @@ description: >-
   using two instances of the averager node using a launch file.
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/sam-moghadam-fJsYggiZyxc-unsplash.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
