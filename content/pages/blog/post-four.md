@@ -102,33 +102,70 @@ bottomSections:
       text:
         textAlign: left
 ---
+> This post was
+>
+> [ originally published](https://medium.com/towards-data-science/feature-selection-choosing-the-right-features-for-your-machine-learning-algorithm-379bda9f3e05)
+>
+>  in the Towards Data Science Publication on Medium.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+## Why should we select some features and ignore the rest? Isn’t having more features good for the accuracy of our model?
 
-## Heading 2
+Choosing the right features, and ignoring unsuitable ones, is a vital step in any machine learning project. This can result in good model performance and save you time down the line. It can also help you interpret the output of your model more easily. But having more features will mean the model has more data to train on, and should mean the model will be more accurate, right? Well, not exactly.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+Having too many features can cause the algorithm to be prone to **overfitting. **Overfitting is when the model generalizes to irrelevant data or outliers. Another good reason to choose features carefully is something called **the curse of dimensionality. **Typically each feature is stored in a dimension.** **Algorithms become harder to design in high dimensions as the running time often grows exponential with the number of dimensions. So it makes sense, and offers a benefit, when we select the most suitable features and ignore the rest.
 
-### Heading 3
+# How can we select the best features for training?
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque.
+There are two ways to select features. First, one can manually observe features by representing them graphically though histograms etc. The second way is through automatic selection of best features.
 
-```javascript
-{
-  page.content && (
-    <Markdown
-      options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }}
-      className="sb-markdown max-w-screen-md mx-auto"
-      data-sb-field-path="content"
-    >
-      {page.content}
-    </Markdown>
-  );
-}
+## Doing things manually…
+
+We can manually observe features by representing them graphically though histograms etc. Then, by identifying the features that can be distinguished from each other and those that overlap each other, we can decide which ones will be the best. Let us look at an example.
+
+We are going to have a look at the [iris dataset](https://www.kaggle.com/datasets/uciml/iris). It has data for 150 iris flowers, consisting of 3 species (Iris setosa, Iris virginica and Iris versicolor). Four features of the flowers are available in the dataset (the width and length of sepals and petals of the flowers). An excerpt of the dataset is shown below.
+
+```
+Here, you can see the 
 ```
 
-In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+The code to lead the Iris data set is shown below:
+
+```
+
+# In this code, we load up the iris data set 
+# and try to visualize the features using a histogram
+
+from sklearn import datasets
+import matplotlib.pyplot as plt
+
+iris = datasets.load_iris()
+
+dim = 0  # the feature we want to compare
+
+# each dataset is seperated into 5 intervals (by giving 5 to the bins variable)
+plt.hist(iris.data[iris.target==0,dim], bins=5, histtype='stepfilled', color='b', alpha=0.5, label='Setosa')
+plt.hist(iris.data[iris.target==1,dim], bins=5, histtype='stepfilled', color='r', alpha=0.5, label='Versicolor')
+plt.hist(iris.data[iris.target==2,dim], bins=5, histtype='stepfilled', color='g', alpha=0.5, label='Virginica')
+
+plt.title("Histogram")
+plt.xlabel("Value")
+plt.ylabel("Occurances")
+plt.legend()
+
+plt.show()
+```
+
+With the above code, we draw a histogram for each of the three species of the iris data set, for a specific feature selected using the variable ‘**dim’**.
+
+We can select a specific species using **‘iris.target’ **for example, in the above code:** iris.data\[iris.target == 0, dim] **gives us the data of the Iris Setosa species **and** the feature: sepal length.
+
+By looking at the resulting histogram, we realize that the features overlap. This means that the feature we selected (sepal length), given by **dim = 0**, may not be good enough to seperate the different types of iris flowers (Setosa, Versicolor and Virginica).
+
+<p align="center">
+![](/images/iris1.webp)
+<em>The results of the above code, the features are overlapping.</em>
+</p>
+
+
