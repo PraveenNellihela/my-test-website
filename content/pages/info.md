@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 54
 sections:
   - elementId: ''
-    colors: colors-b
+    colors: colors-f
     backgroundSize: full
     text: >+
       ##### I was born and raised in Sri Lanka. I am now based in Germany. When
