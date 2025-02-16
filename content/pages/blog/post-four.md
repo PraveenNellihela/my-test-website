@@ -237,7 +237,7 @@ Another quality measure that can be used is the *Fisher’s ratio*. It measures
 
 <p align="center">
 !\[]\(/images/fishers%20ratio.webp)
-<em>Equation to calculate \[Fisher’s ratio.]\(http\://www\.statistics4u.com/fundstat\_eng/cc\_fisher\_ratio.html#:\~:text=Fisher's%20ratio%20is%20a%20measure,and%20v2%20the%20variances.)</em>
+<em>Equation to calculate \[Fisher’s ratio]\(http\://www\.statistics4u.com/fundstat\_eng/cc\_fisher\_ratio.html#:\~:text=Fisher's%20ratio%20is%20a%20measure,and%20v2%20the%20variances.)</em>
 </p>
 
 Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.
