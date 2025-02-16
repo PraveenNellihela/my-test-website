@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: The Great Unbundling
+title: The Science Behind Efficient Learning
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
