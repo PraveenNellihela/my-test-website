@@ -9,7 +9,7 @@ excerpt: >-
   levels.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image3.jpg
+  url: /images/howard-bouchevereau-Ql4Y26OsEoY-unsplash.jpg
   altText: Post thumbnail image
 backgroundImage:
   type: BackgroundImage
