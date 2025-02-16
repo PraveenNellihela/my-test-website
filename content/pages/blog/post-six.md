@@ -122,7 +122,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 39
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/clustering-algorithm-fundamentals-and-an-implementation-in-python-31a482592b04)in Medium under the Towards Data Science Publication.
 
