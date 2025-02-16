@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: The Science Behind Efficient Learning
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/bg2.jpg
