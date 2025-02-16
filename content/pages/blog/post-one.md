@@ -3,8 +3,8 @@ type: PostLayout
 title: K-Nearest Neighbors Algorithm - A simple overview
 date: '2022-05-13'
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  K-Nearest Neighbors (KNN) is one of the simplest machine learning algorithms
+  to understand. Let's try to do that in this post,
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
