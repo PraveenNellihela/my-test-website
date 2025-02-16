@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: "Clustering Algorithm Fundamentals and an Implementation in Python \U0001F5C2️"
+title: 'Clustering Algorithm Fundamentals and an Implementation in Python '
 colors: colors-b
 date: '2022-09-01'
 author: content/data/team/doris-soto.json
