@@ -150,13 +150,53 @@ However, I did find some scientifically backed tools that can help with studies.
     <em>ICAP Framework</em>
 </p>
 
-**Using active recall: **This is another method of studying found in research. However, it was somewhat controversial when it was introduced. Instead of reading and re-reading until you remember something, active recall emphasises the benefit of closing the book you are studying and trying to recite everything you can recall up to a particular point. This can help with retention and long term memory.
+\*\*Using active recall: \*\*This is another method of studying found in research. However, it was somewhat controversial when it was introduced. Instead of reading and re-reading until you remember something, active recall emphasises the benefit of closing the book you are studying and trying to recite everything you can recall up to a particular point. This can help with retention and long term memory.
 
-**Feynman method: **This is a great framework for understanding, recalling and explaining new concepts. It forces you to simplify what you are trying to learn, helping you understand the concepts better.
+\*\*Feynman method: \*\*This is a great framework for understanding, recalling and explaining new concepts. It forces you to simplify what you are trying to learn, helping you understand the concepts better.
 
 <p  align="center">
     ![](/images/freyman.webp)
     <em>Wolswijk (23 October 2014)</em>
 </p>
+
+First, chose the concept you want to learn. This can be anything as complex as quantum physics to much simpler problems.
+
+Next, try to explain it as if you are explaining it to a five year old. This means complex words should not be used. If you cannot use simple terms to explain the concept, this means you likely do not understand the concept fully.
+
+At this point, you should go back to the books and try to understand the points you cannot explain. Try to link the concept with something you are already familiar with, using an analogy.
+
+This method forces us to understand a concept fully, instead of what we usually do: skim reading.
+
+> “The first principle is that you must not fool yourself and you are the easiest person to fool.” — Richard Feynman
+
+And now to a concept that I think generalises well to everyone and everyone can benefit from: **metacognition**.
+
+## What is metacognition?
+
+Metacognition is simply, the understanding of our own thought process. This can be applied to understand our reasoning behind every decision we take, but in the concept of this topic, let us look at how we can use it to benefit our learning process.
+
+Everyone is different and learns differently. Assessing your own thought process when studying will help you understand:
+
+*   Are you really studying while sitting on your table, or are you actually procrastinating more?
+
+*   Why do you seem to suffer in some subjects, but do well in others?
+
+*   How difficult is studying for you and how it can be made easier by changing up your studying methods
+
+*   Which method of studying gives you the best results?
+
+**Experiment a bit.** Try changing the way you study. Try to take down notes and recall them when you are doing some chores. You could also try going outside with your book to a park or even to a library.
+
+Sometimes, knowing a particular subject is difficult will actually cause you to give low effort. Instead, try to approach it in an excited manner. I find looking at practical approaches helps me get excited about some subjects. For example, seeing autonomous cars, self driving and some amazing experiments gets me excited about learning about difficult A.I techniques.
+
+Also, doing physical exercise is shown to be effective in keeping not just your body, but also the brain, healthy. Try incorporating daily exercises and you may benefit from this too.
+
+## Conclusion
+
+In summary, learning can sometimes be difficult. But it doesn’t have to be. We discussed some learning techniques backed by scientific studies as well as some general advice on how to study better. Change things up a bit if you are struggling. Stay excited, stay motivated. Because if you are learning, the best is yet to come!
+
+
+
+
 
 
