@@ -102,11 +102,7 @@ bottomSections:
       text:
         textAlign: left
 ---
-> This post was 
->
-> [originally published](https://medium.com/towards-data-science/what-is-k-fold-cross-validation-5a7bb241d82f)
->
->  in Medium, under the Towards Data Science publication
+> This post was [originally published ](https://medium.com/towards-data-science/what-is-k-fold-cross-validation-5a7bb241d82f)in Medium, under the Towards Data Science publication
 
 # Introduction
 
@@ -135,16 +131,16 @@ The general stratergy is quite straight forward and the following steps can be u
 7.  The total error rate is the average of all these individual evaluation scores.
 
 <div style="text-align: center">![](https://preview--nellihela-0a1b8.stackbit.dev/_static/app-assets/public/images/K-fold_cross_validation_EN.svg)
-Diagram of k-fold cross validation By Gufosowa — Own work, CC BY-SA 4.0, <https://commons.wikimedia.org/w/index.php?curid=82298768>
-</div>
+Diagram of k-fold cross validation By Gufosowa — Own work, CC BY-SA 4.0, <https: commons.wikimedia.org="" w="" index.php?curid="82298768">
+</https:></div>
 
 # How to determine the best value for ‘k’ in K-Fold Cross Validation?
 
-<div style="text-align: left">Chosing a good value for k is important. A poor value for k can result in a poor evaluation of the model’s abilities. In other words, it can cause the measured ability of the model to be overestimated (high bias) or change widely depending on the training data used (high variance).Generally, there are three ways to select k:*   Let k = 5, or k =10. Through experimentation, it has been found that selecting k to be 5 or 10 results in sufficiently good results.
+<div style="text-align: left">Chosing a good value for k is important. A poor value for k can result in a poor evaluation of the model’s abilities. In other words, it can cause the measured ability of the model to be overestimated (high bias) or change widely depending on the training data used (high variance).Generally, there are three ways to select k:\*   Let k = 5, or k =10. Through experimentation, it has been found that selecting k to be 5 or 10 results in sufficiently good results.</div>
 
 *   Let k = n, where n is the size of the dataset. This ensures each sample is used in the test data set.
 
-*   Another way is to chose k so that every split data sample is sufficiently large, ensuring they are statistically represented in the larger dataset.# Types of cross validationCross validation can be divided into two major categories:*   Exhaustive, where the method learn and test on every single possibility of dividing the dataset into training and testing subsets.
+*   Another way is to chose k so that every split data sample is sufficiently large, ensuring they are statistically represented in the larger dataset.# Types of cross validationCross validation can be divided into two major categories:\*   Exhaustive, where the method learn and test on every single possibility of dividing the dataset into training and testing subsets.
 
 *   Non-exhaustive cross validation methods where **all** ways of splitting the sample are **not** computed.</div>
 
