@@ -2,7 +2,7 @@
 type: PostLayout
 title: "Clustering Algorithm Fundamentals and an Implementation in Python \U0001F5C2️"
 colors: colors-a
-date: '2024-06-03'
+date: '2022-09-03'
 author: content/data/team/doris-soto.json
 excerpt: >-
   The unsupervised process of creating groups of data containing similar
