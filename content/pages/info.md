@@ -46,7 +46,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     title: Hi There!
-    subtitle: I’m currently working in a German Robotics Company.
+    subtitle: I’m a DevOps Engineer working in a German Robotics Company.
   - type: DividerSection
     styles:
       self:
