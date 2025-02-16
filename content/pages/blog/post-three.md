@@ -4,7 +4,9 @@ title: A Comprehensive Guide to Python Lists
 colors: colors-b
 date: '2024-01-01'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: >-
+  Everything a coder need to know about Python lists, from beginner to advanced
+  levels.
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image3.jpg
