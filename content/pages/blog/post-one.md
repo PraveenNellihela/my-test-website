@@ -47,9 +47,10 @@ It is fairly straightforward. The algorithm checks for the closest “k” numbe
 
 <p align="center">
 ![](/images/scatter-plot.webp)
+<em>Scatter plot of different species of Iris flowers against their sepal length and sepal width.</em>
 </p>
 
-<div style="text-align: center">Scatter plot of different species of Iris flowers against their sepal length and sepal width.</div>
+<div style="text-align: center"></div>
 
 Here, different species of Iris flowers are plotted against their sepal lengths and widths. Observing the plot, you can see a clear distinction between species based on these two features. Now, we are given a new flower (purple point in the plot) and need to identify the species.
 
