@@ -198,8 +198,65 @@ The first quality index we will look at is called the *Correlation Coefficient*
 > [- Weisstein, Eric W.](https://en.wikipedia.org/wiki/Eric_W._Weisstein) [“Covariance”](https://mathworld.wolfram.com/Covariance.html). [*MathWorld*](https://en.wikipedia.org/wiki/MathWorld).
 
 This can be understood clearly by observing the image below.
+
 <p align="center">
 ![](/images/1_8jws5-3rAmaRyNyN01MzDg.webp)
 <em>[The sign of the covariance of two random variables *X* and *Y*](https://en.wikipedia.org/wiki/Covariance)</em>
 </p>
+
+The covariance can be caculated with the following equation with x̄ and ȳ representing mean values of x and y respectively:
+
+![](/images/cov1.webp)Thus, the Correlation Coefficient can be calculated as below:
+
+![](/images/cov2.webp)If the two features are stochastically independent, their correlation will be 0. However, keep in mind that even if the correlation is 0 it does not necessarily mean that the variables are independent. There could be underlying dependencies that are not captured by the correlation.
+
+Also note that correlation does not imply causality. Look at the chart below. Since the two incidents are similar, the correlation is extremely high. But does it mean if you eat more cheese, you are likely to be strangled by your bedsheet? The data here is purely coincidental.
+
+
+
+![](/images/correlation1.webp)
+
+**Disadvantages of correlation for feature selection:**
+
+*   Correlation only finds relationships that are linear
+
+*   This also only works for problems with two classes
+
+Another quality measure that can be used is the *Fisher’s ratio*. It measures the linear discriminative power of a variable and has the following formula.
+
+
+![](/images/fishers%20ratio.webp)Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.
+
+There are many other quality measurement tools available such as Kullback-Leibler Divergence, ANOVA and more, which are not discussed here.
+
+# Possible problems with feature selection
+
+Even though most of the algorithms are relatively simple and easy, they are not always applicable all the time. Difficulties arise when trying to determine which quality measure to use and when trying to initialize greedy algorithms when a signle dimension does not lead to any results.
+
+Furthermore, even though features are looked at as individual and independant from each other, they often have a dependence on each other. As a result, quality measurement based feature selection will never offer the same information that can be observed when two features are combined. Thus, it offers a benefit to make use of information shared among dimensions. This can be achieved by transforming the feature space (also known as compression). In order to achieve this, *Principal Component Analysis (PCA)* can be used. We will look at PCA in another article.
+
+# Problem of having very different features
+
+Above, we discussed that having features that differ from each other can introduce problems. For example, having one feature in length with cm as a unit and having another feature which is a color. To mitigate this, we can use feature scaling.
+
+## Scaling
+
+*   In the Iris and Digits datasets all features are scaled equally (units are in centimeters)
+
+*   If this if not the case, single features can bias the result.
+
+*   A feature with a high variance for example dominates a distance measure.
+
+## Solution:
+
+*   scale features to a mean of 0 and a variance of 1
+
+If the population mean and population standard deviation are known, a raw score *x* is converted into a standard score by the following formula:
+
+
+![](/images/standardscore.webp)where: *μ* is the [mean](https://en.wikipedia.org/wiki/Mean) of the population, *σ* is the [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) of the population.
+
+# Conclusion
+
+Having a large number of features can introduce complications when training a machine learning model, such as making the algorithm prone to overfitting and increasing training times. Therefore, it is very important to chose features that work well and ignore features that do not offer sufficient benefits. This can be done manually, by visualing the data and observing how features interact with each other. Also, it can be done using automatic techniques when the features available are too large. There are benefits and advantages of both methods, and selecting the suitable method comes down to the problem at hand.
 
