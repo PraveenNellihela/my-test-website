@@ -148,9 +148,9 @@ In organizations like Google, clustering is used for:
 
 *   Preserve privacy: clustering groups of users and associating their data with cluster IDs prevent associating user data with specific users, ensuring user privacy.
 
+<p align="center">
 ![](/images/clus1.webp)
-
-The result of cluster analysis. Source: hellisp, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cluster-2.png)
+<em>The result of cluster analysis. Source: hellisp, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cluster-2.png)</em>
 
 # Clustering Algorithms
 
@@ -160,7 +160,9 @@ Now that we understand the concepts of clustering, let us look at some common cl
 
 This approach is suited for hierarchical data and it creates a tree of clusters. The standard algorithm is too slow for most datasets, as it has a time complexity of O(n³) with a memory requirement of Ω(n²). However, the runtime can be decreased at the cost of memory requirements, although memory overhead makes it difficult to use practically in most cases.
 
-![](/images/clus2.webp)Hierarchical clustering and interactive dendrogram visualization in [Orange data mining suite](https://en.wikipedia.org/wiki/Orange_\(software\)).[ Blaž Zupan (Orange Data Mining)](https://commons.wikimedia.org/wiki/File:Orange-data-mining-hierarchical-clustering.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
+<p align="center">
+![](/images/clus2.webp)
+<em>Hierarchical clustering and interactive dendrogram visualization in [Orange data mining suite](https://en.wikipedia.org/wiki/Orange_\(software\)).[ Blaž Zupan (Orange Data Mining)](https://commons.wikimedia.org/wiki/File:Orange-data-mining-hierarchical-clustering.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons </em>
 
 ## Distribution-based Clustering
 
@@ -170,15 +172,18 @@ An example is shown in the image below where data is clustered into three Gaussi
 
 If you do not have information on the type of distribution of the dataset, this algorithm might not be the best.
 
-![](/images/clus3.webp)Gaussian distribution-based clustering. By Chire — Own work,[ CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=17085713), via Wikimedia Commons
+<p align="center">
+![](/images/clus3.webp)
+<em>Gaussian distribution-based clustering. By Chire — Own work,[ CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=17085713), via Wikimedia Commons
+</em>
 
 ## Density-based Clustering
 
 These algorithms create clusters by connecting areas that contain high densities of objects. It requires dense areas to be connectable, and by design, outliers are not assigned to clusters. A disadvantage is the difficulties density-based clustering algorithms face with higher dimensions as well as with data that have varying densities.
 
+<p align="center">
 ![](/images/clus4.webp)
-Cluster analysis with [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) algorithm on a density-based data set. [Chire](https://commons.wikimedia.org/wiki/File:DBSCAN-density-data.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
-
+<em>Cluster analysis with [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) algorithm on a density-based data set. [Chire](https://commons.wikimedia.org/wiki/File:DBSCAN-density-data.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons</em>
 ## Centroid-based Clustering
 
 This form of clustering groups data into non-hierarchical partitions. While these types of algorithms are efficient, they are sensitive to initial conditions and to outliers. The most commonly used centroid-based algorithm is known as k-means, where k is a hyperparameter defining the number of clusters.
@@ -289,6 +294,3 @@ If you want to dive deeper into the algorithms provided, the [scikit-learn clus
 # Conclusion
 
 In this article, we looked at clustering, its uses, and some commonly used types of clustering algorithms. We also had a look at their advantages and disadvantages, and where some algorithms shine compared to others. We finished by looking at a coded example of how k-means clustering can be done. I hope you found this information useful. Feel free to let me know your thoughts and questions in the comment section below.
-
-
-
