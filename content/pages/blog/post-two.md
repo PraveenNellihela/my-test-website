@@ -129,7 +129,7 @@ Can you become a better learner? The quick simple answer: yes, you can. You can 
 
 If you would like to know how, stick around a bit more and we’ll explore how you can be the best version of yourself when it comes to learning and studying.
 
-## Can I increase my learning capacity or am I stuck with it the way I was born?
+## Can I increase my learning capacity, or is it something I am born with?
 
 Believe it or not, most of the qualities you have, can be improved, if you want to. Take your strength for example. If you exercise regularly, maintain a good diet, you will become healthier and stronger.
 
