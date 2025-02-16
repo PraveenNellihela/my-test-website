@@ -34,6 +34,14 @@
             },
             {
                 "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/praveen-nellihela/",
+                "icon": "linkedin",
+                "elementId": ""
+            },
+            {
+                "type": "Social",
                 "altText": "GitHub",
                 "label": "GitLab",
                 "url": "https://gitlab.com/praveennellihela",
