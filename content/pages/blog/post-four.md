@@ -115,7 +115,11 @@ bottomSections:
 media:
   type: ImageBlock
   url: /images/clay-banks-odoykoPOF3E-unsplash.jpg
-  altText: altText of the image
+  altText: >-
+    Photo by <a
+    href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay
+    Banks</a> on <a
+    href="https://unsplash.com/photos/white-and-orange-plastic-chairs-odoykoPOF3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
   caption: Caption of the image
   elementId: ''
 ---
