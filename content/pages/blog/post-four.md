@@ -235,8 +235,10 @@ Also note that correlation does not imply causality. Look at the chart below. Si
 
 Another quality measure that can be used is the *Fisher’s ratio*. It measures the linear discriminative power of a variable and has the following formula.
 
+
+
 <p align="center">
-!\\\[]\\(/images/fishers%20ratio.webp)
+![](/images/fishers%20ratio.webp)
 <em>Equation to calculate Fisher’s ratio</em>
 </p>
 
