@@ -111,8 +111,25 @@ bottomSections:
       text:
         textAlign: left
 ---
+Lists are a one of the four built in data structures found in Python. Data structures can be considered as “containers” that help organize, manage and store data in a unique way. In addition to the built in data structures, Python also offers developers the ability to create their own. These are known as user-defined data structures. Today, we will look at the built in data structure, lists. We will dive deeper into the other data structures in future guides in this series.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+## Table of Contents
+
+*   List creation and indexing
+
+*   The methods of list objects
+
+*   List Slicing
+
+*   List Comprehension
+
+*   Other useful tips
+
+<p> align="center">
+![](/images/python1.webp)
+<em>Data structures found in Python.</em>
+</p>
+
 
 ## What is Composable Web?
 
