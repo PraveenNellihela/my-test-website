@@ -2,7 +2,7 @@
 type: PostLayout
 title: What is K-fold Cross Validation?
 colors: colors-a
-date: '2024-05-02'
+date: '2024-04-02'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
