@@ -15,7 +15,12 @@ media:
   type: ImageBlock
   url: /images/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg
   altText: Post image
-  caption: Caption of the image
+  caption: >-
+    Caption of theFoto de <a
+    href="https://unsplash.com/es/@xavi_cabrera?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Xavi
+    Cabrera</a> en <a
+    href="https://unsplash.com/es/fotos/bloques-de-lego-amarillos-rojos-azules-y-verdes-kn-UmDZQDjM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
+    image
   elementId: ''
 addTitleSuffix: true
 colors: colors-b
