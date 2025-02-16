@@ -19,7 +19,7 @@ sections:
 
     media:
       type: ImageBlock
-      url: /images/626-IZ8A5238-removebg.png
+      url: /images/IMG_1587.JPEG
       altText: Hero image
     styles:
       self:
