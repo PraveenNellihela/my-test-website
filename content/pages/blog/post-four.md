@@ -136,7 +136,7 @@ backgroundImage:
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/feature-selection-choosing-the-right-features-for-your-machine-learning-algorithm-379bda9f3e05)in the Towards Data Science Publication on Medium.
 
-## Why should we select some features and ignore the rest? Isn’t having more features good for the accuracy of our model?
+# Does more features correspond to higher accuracy of our model?
 
 Choosing the right features, and ignoring unsuitable ones, is a vital step in any machine learning project. This can result in good model performance and save you time down the line. It can also help you interpret the output of your model more easily. But having more features will mean the model has more data to train on, and should mean the model will be more accurate, right? Well, not exactly.
 
