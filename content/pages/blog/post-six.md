@@ -9,6 +9,11 @@ featuredImage:
   type: ImageBlock
   url: /images/aldebaran-s-A8tFlXQzRXg-unsplash.jpg
   altText: Post thumbnail image
+  caption: >-
+    Foto de <a
+    href="https://unsplash.com/es/@aldebarans?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aldebaran
+    S</a> en <a
+    href="https://unsplash.com/es/fotos/galaxia-negra-y-roja-con-estrellas-A8tFlXQzRXg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
