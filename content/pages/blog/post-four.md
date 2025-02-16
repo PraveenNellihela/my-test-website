@@ -1,6 +1,8 @@
 ---
 type: PostLayout
-title: "Feature Selection: Choosing the Right Features for Your Machine Learning Algorithm \U0001F30E"
+title: >-
+  Feature Selection: Choosing the Right Features for Your Machine Learning
+  Algorithm
 colors: colors-a
 date: '2022-07-13'
 author: content/data/team/doris-soto.json
