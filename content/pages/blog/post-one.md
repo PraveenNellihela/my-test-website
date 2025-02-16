@@ -43,3 +43,26 @@ It is fairly straightforward. The algorithm checks for the closest “k” numbe
 ![](/images/scatter-plot.webp)
 </p>
 
+<div style="text-align: center">Scatter plot of different species of Iris flowers against their sepal length and sepal width.</div>
+
+Here, different species of Iris flowers are plotted against their sepal lengths and widths. Observing the plot, you can see a clear distinction between species based on these two features. Now, we are given a new flower (purple point in the plot) and need to identify the species.
+
+K-NN looks for the nearest points of data. If K = 4, the closest 4 issues are identified based on their distance to the new point, as shown, and the maximum occurring class is given as the prediction. In this instance, 2 out of 4 are virginica and one each of Setosa and Versicolor. Thus, the new point is predicted as a flower belonging to Virginica species.
+
+*Note*: Unlike most machine learning algorithms that do the training work when training data is supplied, KNN just stored that data without doing any actual training. It is only during the prediction stage that computation is done to identify the closest neighbors and determine the class. Because of this, KNN is called a “**lazy learner**”.
+
+# How is the distance calculated?
+
+There are several methods of calculating the distance. Euclidean distance is a popular method, while Manhattan, Minkowski, and Hamming distance methods can also be used. The formula for calculating Euclidean distance is given below.
+
+<p align="center">
+![](/images/euq.webp)
+</p>
+
+
+
+
+
+<div style="text-align: left">
+</div>
+
