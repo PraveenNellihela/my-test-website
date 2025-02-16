@@ -159,7 +159,6 @@ Here, you can see the
 The code to lead the Iris data set is shown below:
 
 ```
-
 # In this code, we load up the iris data set 
 # and try to visualize the features using a histogram
 
@@ -266,8 +265,6 @@ Also note that correlation does not imply causality. Look at the chart below. Si
 *   This also only works for problems with two classes
 
 Another quality measure that can be used is the *Fisher’s ratio*. It measures the linear discriminative power of a variable and has the following formula.
-
-
 
 <p align="center">
 ![](/images/fishers%20ratio.webp)
