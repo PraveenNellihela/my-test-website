@@ -8,7 +8,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 97
+  opacity: 36
 postFeed:
   type: PostFeedSection
   colors: colors-f
