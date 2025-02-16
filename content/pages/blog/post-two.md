@@ -145,8 +145,18 @@ However, I did find some scientifically backed tools that can help with studies.
 
 **ICAP Framework:** This framework compares different ways of studying and how effective they are. In summary, learning by just reading or watching a video was the least effective. If you combine the above, with note taking, self studying and discussions, learning was found to be most effective.
 
-<p>
+<p  align="center">
     ![](/images/1_PW8EgRKxJ22GvbcctaC_dg.webp)
     <em>ICAP Framework</em>
 </p>
+
+**Using active recall: **This is another method of studying found in research. However, it was somewhat controversial when it was introduced. Instead of reading and re-reading until you remember something, active recall emphasises the benefit of closing the book you are studying and trying to recite everything you can recall up to a particular point. This can help with retention and long term memory.
+
+**Feynman method: **This is a great framework for understanding, recalling and explaining new concepts. It forces you to simplify what you are trying to learn, helping you understand the concepts better.
+
+<p  align="center">
+    ![](/images/freyman.webp)
+    <em>Wolswijk (23 October 2014)</em>
+</p>
+
 
