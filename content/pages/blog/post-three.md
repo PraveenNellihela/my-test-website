@@ -10,7 +10,11 @@ excerpt: >-
 featuredImage:
   type: ImageBlock
   url: /images/howard-bouchevereau-Ql4Y26OsEoY-unsplash.jpg
-  altText: Post thumbnail image
+  altText: >-
+    Foto de <a
+    href="https://unsplash.com/es/@howardbouchevereau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Howard
+    Bouchevereau</a> en <a
+    href="https://unsplash.com/es/fotos/black-flat-screen-computer-monitor-on-brown-wooden-desk-Ql4Y26OsEoY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
 backgroundImage:
   type: BackgroundImage
   url: /images/bg4.jpg
