@@ -44,6 +44,9 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+    text: >
+      Here, you will find my thoughts, hard earned achievements, and everything
+      in between.
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
