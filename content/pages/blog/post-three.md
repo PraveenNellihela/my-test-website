@@ -2,7 +2,7 @@
 type: PostLayout
 title: A Comprehensive Guide to Python Lists
 colors: colors-b
-date: '2022-08-01'
+date: '2022-08-20'
 author: content/data/team/doris-soto.json
 excerpt: >-
   Everything a coder need to know about Python lists, from beginner to advanced
