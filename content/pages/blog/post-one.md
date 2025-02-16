@@ -59,10 +59,13 @@ There are several methods of calculating the distance. Euclidean distance is a p
 ![](/images/euq.webp)
 </p>
 
+<div style="text-align: center">Euclidean distance formula.</div>
+
+Let us now consider our iris example and apply the Euclidean formula to calculate the distance between two points.
+
+<p align="center">
+![](/images/iris.webp)
+</p>
 
 
-
-
-<div style="text-align: left">
-</div>
 
