@@ -45,7 +45,7 @@ sections:
     type: HeroSection
     actions: []
     text: >+
-      ## Here, you will find my thoughts, hard earned achievements, and
+      ###### Here, you will find my thoughts, hard earned achievements, and
       everything in between.
 
   - colors: colors-f
