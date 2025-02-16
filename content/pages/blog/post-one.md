@@ -27,11 +27,7 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-> This post was 
->
-> [originally posted](https://medium.com/towards-artificial-intelligence/k-nearest-neighbors-algorithm-a-simple-overview-e0114059d19c)
->
->  under Medium, published under the Towards AI publication.
+> This post was [originally posted ](https://medium.com/towards-artificial-intelligence/k-nearest-neighbors-algorithm-a-simple-overview-e0114059d19c)under Medium, published under the Towards AI publication.
 
 K-Nearest Neighbors (KNN) is one of the simplest machine learning algorithms to understand. Like many other algorithms, KNN was inspired by human reasoning.
 
@@ -46,8 +42,4 @@ It is fairly straightforward. The algorithm checks for the closest “k” numbe
 <p align="center">
 ![](/images/scatter-plot.webp)
 </p>
-
-
-
-
 
