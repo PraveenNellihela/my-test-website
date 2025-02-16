@@ -7,7 +7,7 @@ author: content/data/team/doris-soto.json
 excerpt: 'In this post, we look at K-Fold Cross Validation'
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image5.jpg
+  url: /images/jackson-simmer-ZxRHtPacwUY-unsplash.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
