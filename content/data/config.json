@@ -86,7 +86,7 @@
         ],
         "contacts": {
             "type": "ContactBlock",
-            "title": "Praveen Nellihela",
+            "title": "Contact details",
             "phoneNumber": "",
             "phoneAltText": "My phone number",
             "email": "https://www.linkedin.com/in/praveen-nellihela/",
