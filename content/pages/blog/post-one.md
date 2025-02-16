@@ -64,21 +64,23 @@ There are several methods of calculating the distance. Euclidean distance is a p
 
 <p align="center">
 ![](/images/euq.webp)
+<em>Euclidean distance formula.</em>
 </p>
-
-<div style="text-align: center">Euclidean distance formula.</div>
 
 Let us now consider our iris example and apply the Euclidean formula to calculate the distance between two points.
 
 <p align="center">
 ![](/images/iris.webp)
+<em>Close-up of Iris data scatter plot.</em>
 </p>
 
 Euclidean distances between the new point (purple) and the closest sample for Versicolor (red) can be calculated as shown below.
 
 <p align="center">
-![](/images/dist.webp)How do we find the best value for k?
+![](/images/dist.webp)
 </p>
+
+# How do we find the best value for k?
 
 The best value for K cannot be predetermined and requires some trial and error. It depends, for each case, on the data being used.
 
