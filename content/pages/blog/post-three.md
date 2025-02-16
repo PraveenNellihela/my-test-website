@@ -148,8 +148,6 @@ list_b = list()
 list_types = ["apple", True, list_a, 42, True] 
 ```
 
-
-
 ## How to access elements inside a list
 
 Items inside a list can be accessed by **indexing**. Indexing allows a user to access items within an *iterable* (objects that can be looped over, such as lists), based on the items position. Keep in mind however, that the very first position is defined by 0 and not 1. Indexing can be done in reverse too, by specifying a negative index. For example, the last element can be accessed by providing -1 as the index. Let us look at indexing in practice:
@@ -233,9 +231,9 @@ In this section, we will cover the methods available for the list data type in P
 
 ## Adding elements
 
-Let us assume we have an item x, that we want to add to a list. You can **append** (add to the end) an item to the list by using the** **`list.undefined(x)` method. However, if you want to add an element to a desired position (for example, at the index i), the method** **`list.undefined(i, x)` can be used. Keep in mind here that i is the index of the element before which to insert.
+Let us assume we have an item x, that we want to add to a list. You can **append** (add to the end) an item to the list by using the\*\* **`list.undefined(x)` method. However, if you want to add an element to a desired position (for example, at the index i), the method** \*\*`list.undefined(i, x)` can be used. Keep in mind here that i is the index of the element before which to insert.
 
-You can also extend a list by **appending** all the items in an *iterable *by using the method `list.undefined(iterable)`. Practice and clarify adding elements with the code below.
+You can also extend a list by **appending** all the items in an \*iterable \*by using the method `list.undefined(iterable)`. Practice and clarify adding elements with the code below.
 
 ```
 gloria_says = ["at", 1, "I"]
@@ -271,10 +269,7 @@ my_list.clear()
 print(my_list)
 ```
 
-
-
 ## Other methods
-
 
 The method list.index(x\[, start\[, end]])can be used to obtain the index of the first item whose value is equal to x. Note that the index is zero based and that this method raises a ValueError if no such item exists. The arguments start and end are optional and can be used to limit the search to a subsequence of the list. These arguments are in the slice notation and we will discuss slicing in the next section.The returned index is computed relative to the beginning of the full sequence rather than the start argument.
 
@@ -307,9 +302,9 @@ print(inventory)
 
 ## List Slicing
 
-Recall indexing that we discussed above. Slicing is similar, however it can return a sequence of items in a list, instead of just one item. When sliced using the `list[start:stop]` format, it will return items in the list from the *start* position until *stop-1 *position.
+Recall indexing that we discussed above. Slicing is similar, however it can return a sequence of items in a list, instead of just one item. When sliced using the `list[start:stop]` format, it will return items in the list from the *start* position until \*stop-1 \*position.
 
-There is also the `list[start:stop:step]` format. This will will return items in the list from the *start* position until *stop-1 *position with the *step* used to skip items. Let us have a look at some examples.
+There is also the `list[start:stop:step]` format. This will will return items in the list from the *start* position until \*stop-1 \*position with the *step* used to skip items. Let us have a look at some examples.
 
 Note that in some cases such as requesting for a number of items but the list contain lesser number of items than expected, Python will not throw an error. Instead, it will return what matches or an empty list.
 
@@ -347,8 +342,6 @@ Creating a list of squares:
 squares = []
 
 ```
-
-
 
 This can be achieved more concisely using a single line of code using list comprehension:
 
@@ -407,15 +400,21 @@ A note to keep in mind when you want to copy a list is, if you create a copy usi
 
 An actual copy can be created using
 
-`new_list = old_list.copy()`
+```
+new_list = old_list.copy()
+```
 
 Another way to do this is
 
-`new_list = list(old_list)`
+```
+new_list = list(old_list)
+```
 
 Also can be done with slicing
 
-`new_list = old_list[:]`
+```
+new_list = old_list[:]
+```
 
 # Summary
 
