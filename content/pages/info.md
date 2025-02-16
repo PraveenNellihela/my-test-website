@@ -13,13 +13,12 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >+
-      ## I was born and raised in Sri Lanka. I am now based in Germany. When I’m
-      not coding or tinkering with tech, I like to travel around the world.
-
+    text: >
+      I was born and raised in Sri Lanka. When I’m not coding or tinkering with
+      tech, I like to play games. listen to music and travel around the world.
     media:
       type: ImageBlock
-      url: /images/626-IZ8A5238-removebg.png
+      url: /images/IMG_1587.JPEG
       altText: Hero image
     styles:
       self:
@@ -45,8 +44,8 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    title: Hey! I’m a DevOps Engineer.
-    subtitle: I’m currently working in a German Robotics Company.
+    title: Hi There!
+    subtitle: I’m a DevOps Engineer working in a German Robotics Company.
   - type: DividerSection
     styles:
       self:
@@ -212,7 +211,7 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: 'Skills & Certifications:'
     items:
       - type: Label
         label: DevOps
