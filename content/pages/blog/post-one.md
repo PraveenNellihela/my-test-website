@@ -67,5 +67,19 @@ Let us now consider our iris example and apply the Euclidean formula to calculat
 ![](/images/iris.webp)
 </p>
 
+Euclidean distances between the new point (purple) and the closest sample for Versicolor (red) can be calculated as shown below.
+
+![](/images/dist.webp)How do we find the best value for k?
+
+The best value for K cannot be predetermined and requires some trial and error. It depends, for each case, on the data being used.
+
+Typically, having larger K values result in less distinct boundaries between classes, but it also reduces the effect of noise on classification. Having large K values also makes computation more intensive and can increase bias.
+
+Some ways of selecting K are to choose an odd number if the number of classes (n) is 2 or to set k=sqrt(n). A good value for K can also be determined by cross-validation.
+
+# Pros and Cons of KNN algorithm
+
+KNN is quite advantageous as it is easy to implement and does not require the building of a model, tuning several parameters, or making additional assumptions. It can be used well with classification, regression as well as for search. However, as the volume of data increases, this algorithm becomes significantly slower.
+
 
 
