@@ -125,11 +125,10 @@ Lists are a one of the four built in data structures found in Python. Data struc
 
 *   Other useful tips
 
-<p> align="center">
+<p align="center">
 ![](/images/python1.webp)
 <em>Data structures found in Python.</em>
 </p>
-
 
 ## What is Composable Web?
 
