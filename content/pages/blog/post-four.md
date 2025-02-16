@@ -133,7 +133,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 7
+  opacity: 41
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/feature-selection-choosing-the-right-features-for-your-machine-learning-algorithm-379bda9f3e05)in the Towards Data Science Publication on Medium.
 
