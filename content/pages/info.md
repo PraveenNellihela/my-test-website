@@ -211,7 +211,7 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     colors: colors-f
-    subtitle: 'Skills:'
+    subtitle: 'Skills & Certifications:'
     items:
       - type: Label
         label: DevOps
