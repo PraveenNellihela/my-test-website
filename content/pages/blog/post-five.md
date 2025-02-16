@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: AI are so hot right now
+title: What is K-fold Cross Validation?
 colors: colors-a
 date: '2024-05-02'
 author: content/data/team/doris-soto.json
