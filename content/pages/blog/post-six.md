@@ -110,6 +110,12 @@ bottomSections:
         textAlign: left
       text:
         textAlign: left
+media:
+  type: ImageBlock
+  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/clustering-algorithm-fundamentals-and-an-implementation-in-python-31a482592b04)in Medium under the Towards Data Science Publication.
 
