@@ -19,7 +19,7 @@ featuredImage:
   url: /images/featured-Image2.jpg
   altText: Post thumbnail image
 media:
-  url: /images/post-4.png
+  url: /images/thought-catalog-505eectW54k-unsplash.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
