@@ -119,6 +119,12 @@ bottomSections:
         textAlign: left
       text:
         textAlign: left
+media:
+  type: ImageBlock
+  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 Lists are a one of the four built in data structures found in Python. Data structures can be considered as “containers” that help organize, manage and store data in a unique way. In addition to the built in data structures, Python also offers developers the ability to create their own. These are known as user-defined data structures. Today, we will look at the built in data structure, lists. We will dive deeper into the other data structures in future guides in this series.
 
