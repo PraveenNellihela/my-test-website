@@ -169,10 +169,6 @@ Given a set of n data points, the objective of the k-means algorithm is to parti
 
 Now, let us implement one of the algorithms discussed above and visualize the resulting clusters. For this, we will use the k-means algorithm and scikit-learn. The code was inspired by and contains code found in the demo of K-Means clustering on the handwritten digits data provided by [scikit-learn examples](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html#sphx-glr-auto-examples-cluster-plot-kmeans-digits-py).
 
-<p align="center">
-<iframe title="Embedded cell output" src="https://embed.deepnote.com/357a2b95-cccb-4ad3-8a01-ed8bd7db9d69/1b3224df89ff4045b682a7bd3f883566/1d9e862ba2444dfaa5de9902117148b2?height=1127" height="1127" width="500"/>
-</p>
-
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -243,3 +239,34 @@ The output is shown in the image below.
 ![](/images/clus5.webp)
 <em>The resulting plot is produced from the above code.</em>
 </p>
+
+In addition to the k-means algorithm, scikit-learn library offers several other algorithms that can be used based on the data you have. Some of these algorithms include:
+
+*   Affinity Propagation
+
+*   Agglomerative Clustering
+
+*   BIRCH
+
+*   DBSCAN
+
+*   K-Means
+
+*   Mini-Batch K-Means
+
+*   OPTICS
+
+*   Spectral Clustering
+
+*   Mixture of Gaussians
+
+Keep in mind that there is no fixed algorithm that will offer the best results. You will have to run controlled experiments to identify the most suitable algorithm for the dataset you are working with.
+
+If you want to dive deeper into the algorithms provided, the [scikit-learn clustering API](https://scikit-learn.org/stable/modules/clustering.html) is a good place to start.
+
+# Conclusion
+
+In this article, we looked at clustering, its uses, and some commonly used types of clustering algorithms. We also had a look at their advantages and disadvantages, and where some algorithms shine compared to others. We finished by looking at a coded example of how k-means clustering can be done. I hope you found this information useful. Feel free to let me know your thoughts and questions in the comment section below.
+
+
+
