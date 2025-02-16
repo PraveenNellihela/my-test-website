@@ -4,7 +4,7 @@ title: "Feature Selection: Choosing the Right Features for Your Machine Learning
 colors: colors-a
 date: '2022-07-13'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: 'Sometimes, less is more'
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image4.jpg
