@@ -11,7 +11,9 @@ backgroundImage:
   opacity: 75
 date: '2022-07-29'
 author: content/data/team/doris-soto.json
-excerpt: 'Can '
+excerpt: >-
+  Can you become a better learner? The quick simple answer: yes, you can. You
+  can learn better, more effectively and keep what you learned in your memory. 
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image2.jpg
