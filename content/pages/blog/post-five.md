@@ -4,10 +4,10 @@ title: What is K-fold Cross Validation?
 colors: colors-b
 date: '2022-07-01'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: 'In this post, we look at K-Fold Cross Validation'
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image5.jpg
+  url: /images/jackson-simmer-ZxRHtPacwUY-unsplash.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
