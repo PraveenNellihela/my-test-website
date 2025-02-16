@@ -212,6 +212,7 @@ The covariance can be caculated with the following equation with x̄ and ȳ rep
 </p>
 
 Thus, the Correlation Coefficient can be calculated as below:
+
 <p align="center">
 ![](/images/cov2.webp)
 <em>Equation to calculate [correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)</em>
@@ -223,7 +224,7 @@ Also note that correlation does not imply causality. Look at the chart below. Si
 
 <p align="center">
 ![](/images/correlation1.webp)
-<em>Corelation between cheese consumption and death by tangling in bedsheets. Author: Tyler Vigen</em>
+<em>[Corelation between cheese consumption and death by tangling in bedsheets](https://www.freecodecamp.org/news/why-correlation-does-not-imply-causation-the-meaning-of-this-common-saying-in-statistics/). Author: [Tyler Vigen](https://tylervigen.com/spurious-correlations)</em>
 </p>
 
 **Disadvantages of correlation for feature selection:**
