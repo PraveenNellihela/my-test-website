@@ -9,7 +9,7 @@ author: content/data/team/doris-soto.json
 excerpt: 'Sometimes, less is more'
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image4.jpg
+  url: /images/clay-banks-odoykoPOF3E-unsplash.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''
