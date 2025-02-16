@@ -4,7 +4,7 @@
     "lastName": "Nellihela",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/about.jpg",
+        "url": "/images/profile_drop.png",
         "altText": "Doris Soto photo"
     }
 }
