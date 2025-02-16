@@ -120,7 +120,12 @@ media:
     href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay
     Banks</a> on <a
     href="https://unsplash.com/photos/white-and-orange-plastic-chairs-odoykoPOF3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
-  caption: Caption of the image
+  caption: >-
+    Caption oPhoto by <a
+    href="https://unsplash.com/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay
+    Banks</a> on <a
+    href="https://unsplash.com/photos/white-and-orange-plastic-chairs-odoykoPOF3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>     
+    f the image
   elementId: ''
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/feature-selection-choosing-the-right-features-for-your-machine-learning-algorithm-379bda9f3e05)in the Towards Data Science Publication on Medium.
