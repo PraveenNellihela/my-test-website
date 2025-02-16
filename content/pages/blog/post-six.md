@@ -140,7 +140,6 @@ This approach is suited for hierarchical data and it creates a tree of clusters.
 
 ![](/images/clus2.webp)Hierarchical clustering and interactive dendrogram visualization in [Orange data mining suite](https://en.wikipedia.org/wiki/Orange_\(software\)).[ Blaž Zupan (Orange Data Mining)](https://commons.wikimedia.org/wiki/File:Orange-data-mining-hierarchical-clustering.png), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons
 
-
 ## Distribution-based Clustering
 
 In these algorithms, it is assumed that data belongs to different distributions. Clusters are then defined as those that contain objects of similar distribution. One disadvantage is that distribution-based clustering is prone to overfitting. Therefore, constraints must be put on model complexity.
@@ -149,10 +148,7 @@ An example is shown in the image below where data is clustered into three Gaussi
 
 If you do not have information on the type of distribution of the dataset, this algorithm might not be the best.
 
-
 ![](/images/clus3.webp)Gaussian distribution-based clustering. By Chire — Own work,[ CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=17085713), via Wikimedia Commons
-
-
 
 ## Density-based Clustering
 
@@ -160,8 +156,6 @@ These algorithms create clusters by connecting areas that contain high densities
 
 ![](/images/clus4.webp)
 Cluster analysis with [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) algorithm on a density-based data set. [Chire](https://commons.wikimedia.org/wiki/File:DBSCAN-density-data.svg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons
-
-
 
 ## Centroid-based Clustering
 
@@ -175,6 +169,4 @@ Given a set of n data points, the objective of the k-means algorithm is to parti
 
 Now, let us implement one of the algorithms discussed above and visualize the resulting clusters. For this, we will use the k-means algorithm and scikit-learn. The code was inspired by and contains code found in the demo of K-Means clustering on the handwritten digits data provided by [scikit-learn examples](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html#sphx-glr-auto-examples-cluster-plot-kmeans-digits-py).
 
-
-
-
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/357a2b95-cccb-4ad3-8a01-ed8bd7db9d69/1b3224df89ff4045b682a7bd3f883566/1d9e862ba2444dfaa5de9902117148b2?height=1127" height="1127" width="500"/>
