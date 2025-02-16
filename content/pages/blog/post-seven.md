@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Habits of highly productive web developers ⌨️
+title: Habits of highly productive web developers  ⌨️⌨️⌨️
 colors: colors-a
 date: '2024-06-10'
 author: content/data/team/doris-soto.json
