@@ -237,8 +237,10 @@ Another quality measure that can be used is the *Fisher’s ratio*. It measures
 
 <p align="center">
 ![](/images/fishers%20ratio.webp)
-<em>Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.</em>
+<em>Equation to calculate Fisher’s ratio.</em>
 </p>
+
+Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.
 
 There are many other quality measurement tools available such as Kullback-Leibler Divergence, ANOVA and more, which are not discussed here.
 
