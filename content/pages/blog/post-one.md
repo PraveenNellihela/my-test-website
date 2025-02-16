@@ -3,11 +3,11 @@ type: PostLayout
 title: K-Nearest Neighbors Algorithm - A simple overview
 date: '2022-05-13'
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  K-Nearest Neighbors (KNN) is one of the simplest machine learning algorithms
+  to understand. Let's try to do that in this post.
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
+  url: /images/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg
   altText: Post thumbnail image
   caption: Caption of the image
   elementId: ''
@@ -31,6 +31,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 37
+author: content/data/team/doris-soto.json
 ---
 > This post was [originally posted ](https://medium.com/towards-artificial-intelligence/k-nearest-neighbors-algorithm-a-simple-overview-e0114059d19c)under Medium, published under the Towards AI publication.
 
@@ -46,9 +47,10 @@ It is fairly straightforward. The algorithm checks for the closest “k” numbe
 
 <p align="center">
 ![](/images/scatter-plot.webp)
+<em>Scatter plot of different species of Iris flowers against their sepal length and sepal width.</em>
 </p>
 
-<div style="text-align: center">Scatter plot of different species of Iris flowers against their sepal length and sepal width.</div>
+<div style="text-align: center"></div>
 
 Here, different species of Iris flowers are plotted against their sepal lengths and widths. Observing the plot, you can see a clear distinction between species based on these two features. Now, we are given a new flower (purple point in the plot) and need to identify the species.
 
@@ -62,19 +64,23 @@ There are several methods of calculating the distance. Euclidean distance is a p
 
 <p align="center">
 ![](/images/euq.webp)
+<em>Euclidean distance formula.</em>
 </p>
-
-<div style="text-align: center">Euclidean distance formula.</div>
 
 Let us now consider our iris example and apply the Euclidean formula to calculate the distance between two points.
 
 <p align="center">
 ![](/images/iris.webp)
+<em>Close-up of Iris data scatter plot.</em>
 </p>
 
 Euclidean distances between the new point (purple) and the closest sample for Versicolor (red) can be calculated as shown below.
 
-![](/images/dist.webp)How do we find the best value for k?
+<p align="center">
+![](/images/dist.webp)
+</p>
+
+# How do we find the best value for k?
 
 The best value for K cannot be predetermined and requires some trial and error. It depends, for each case, on the data being used.
 
@@ -85,6 +91,3 @@ Some ways of selecting K are to choose an odd number if the number of classes (n
 # Pros and Cons of KNN algorithm
 
 KNN is quite advantageous as it is easy to implement and does not require the building of a model, tuning several parameters, or making additional assumptions. It can be used well with classification, regression as well as for search. However, as the volume of data increases, this algorithm becomes significantly slower.
-
-
-
