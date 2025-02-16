@@ -206,15 +206,25 @@ This can be understood clearly by observing the image below.
 
 The covariance can be caculated with the following equation with x̄ and ȳ representing mean values of x and y respectively:
 
-![](/images/cov1.webp)Thus, the Correlation Coefficient can be calculated as below:
+<p align="center">
+![](/images/cov1.webp)
+<em>Equation to calculate covariance. Source: [Covariance](https://en.wikipedia.org/wiki/Covariance)</em>
+</p>
 
-![](/images/cov2.webp)If the two features are stochastically independent, their correlation will be 0. However, keep in mind that even if the correlation is 0 it does not necessarily mean that the variables are independent. There could be underlying dependencies that are not captured by the correlation.
+Thus, the Correlation Coefficient can be calculated as below:
+<p align="center">
+![](/images/cov2.webp)
+<em>Equation to calculate [correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)</em>
+</p>
+
+If the two features are stochastically independent, their correlation will be 0. However, keep in mind that even if the correlation is 0 it does not necessarily mean that the variables are independent. There could be underlying dependencies that are not captured by the correlation.
 
 Also note that correlation does not imply causality. Look at the chart below. Since the two incidents are similar, the correlation is extremely high. But does it mean if you eat more cheese, you are likely to be strangled by your bedsheet? The data here is purely coincidental.
 
-
-
+<p align="center">
 ![](/images/correlation1.webp)
+<em>Corelation between cheese consumption and death by tangling in bedsheets. Author: Tyler Vigen</em>
+</p>
 
 **Disadvantages of correlation for feature selection:**
 
@@ -224,8 +234,10 @@ Also note that correlation does not imply causality. Look at the chart below. Si
 
 Another quality measure that can be used is the *Fisher’s ratio*. It measures the linear discriminative power of a variable and has the following formula.
 
-
-![](/images/fishers%20ratio.webp)Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.
+<p align="center">
+![](/images/fishers%20ratio.webp)
+<em>Here x̄ and ȳ represent the means of class 1 and class 2 respectively and the variances of the two classes are given in the denominator. The benefit of this method is that it offers a faster calculation for more complex criteria.</em>
+</p>
 
 There are many other quality measurement tools available such as Kullback-Leibler Divergence, ANOVA and more, which are not discussed here.
 
@@ -253,10 +265,11 @@ Above, we discussed that having features that differ from each other can introdu
 
 If the population mean and population standard deviation are known, a raw score *x* is converted into a standard score by the following formula:
 
-
+<p align="center">
 ![](/images/standardscore.webp)where: *μ* is the [mean](https://en.wikipedia.org/wiki/Mean) of the population, *σ* is the [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) of the population.
+<em>Equation to calculate standard score.</em>
+</p>
 
 # Conclusion
 
 Having a large number of features can introduce complications when training a machine learning model, such as making the algorithm prone to overfitting and increasing training times. Therefore, it is very important to chose features that work well and ignore features that do not offer sufficient benefits. This can be done manually, by visualing the data and observing how features interact with each other. Also, it can be done using automatic techniques when the features available are too large. There are benefits and advantages of both methods, and selecting the suitable method comes down to the problem at hand.
-
