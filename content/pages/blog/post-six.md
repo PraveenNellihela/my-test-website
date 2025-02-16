@@ -104,13 +104,47 @@ bottomSections:
       text:
         textAlign: left
 ---
+> This post was 
+>
+> [originally published](https://medium.com/towards-data-science/clustering-algorithm-fundamentals-and-an-implementation-in-python-31a482592b04)
+>
+>  in Medium under the Towards Data Science Publication. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+# What is clustering?
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+Clustering is a method that can help machine learning engineers understand unlabeled data by creating meaningful groups or clusters. This often reveals patterns in data, which can be a useful first step in machine learning. Since the data you are working with is unlabeled, **clustering** is an unsupervised machine learning task.
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+Data is categorized into groups based on their similarity to each other through a metric known as the **similarity measure, **which** **is used to find out how similar the objects in the dataset are. To calculate this similarity measure, the **feature data** of the object in the dataset is used. A **cluster ID **is provided for each cluster, which is a powerful application of clustering. This allows large datasets to be simplified and also allows you to condense the entire feature set for an object into its cluster ID.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+A simple real-life example of this principle is collecting data about household size and household income to create clusters of users such as small family high spenders, small family low spenders, large family high spenders, and large family low spenders.
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+# Uses of clustering
+
+Today, clustering is used for a wide variety of use cases in the industry. Some of these include the grouping of search results, analysis of social networks, and market segmentation. Clustering is also used in image segmentation, anomaly detection, and in medical imaging.
+
+Expanding on the advantage of cluster IDs mentioned above, clustering can be used to group objects by different features. For example, stars can be grouped by their brightness or music by their genres.
+
+In organizations like Google, clustering is used for:
+
+*   Generalization: when objects in clusters have missing feature data, they can be inferred from other objects in their cluster.
+
+*   Data compression: feature data can be entirely replaced by the cluster ID. This saves storage and simplifies the feature space. This can help make ML model training simpler and faster.
+
+*   Preserve privacy: clustering groups of users and associating their data with cluster IDs prevent associating user data with specific users, ensuring user privacy.
+
+![](/images/clus1.webp)
+
+The result of cluster analysis. Source: hellisp, Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cluster-2.png)
+
+
+# Clustering Algorithms
+
+Now that we understand the concepts of clustering, let us look at some common clustering algorithms. For an exhaustive list, you can refer to [this paper](https://link.springer.com/article/10.1007/s40745-015-0040-1).
+
+## Hierarchical Clustering
+
+This approach is suited for hierarchical data and it creates a tree of clusters. The standard algorithm is too slow for most datasets, as it has a time complexity of O(n³) with a memory requirement of Ω(n²). However, the runtime can be decreased at the cost of memory requirements, although memory overhead makes it difficult to use practically in most cases.
+
+
+
+
