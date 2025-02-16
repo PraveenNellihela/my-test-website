@@ -134,7 +134,9 @@ media:
     href="https://unsplash.com/es/fotos/black-flat-screen-computer-monitor-on-brown-wooden-desk-Ql4Y26OsEoY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
   elementId: ''
 ---
-Lists are a one of the four built in data structures found in Python. Data structures can be considered as “containers” that help organize, manage and store data in a unique way. In addition to the built in data structures, Python also offers developers the ability to create their own. These are known as user-defined data structures. Today, we will look at the built in data structure, lists. We will dive deeper into the other data structures in future guides in this series.
+Lists are a one of the four built in data structures found in Python. Data structures can be considered as “containers” that help organize, manage and store data in a unique way. 
+
+In addition to the built in data structures, Python also offers developers the ability to create their own. These are known as user-defined data structures. Today, we will look at the built in data structure, lists. We will dive deeper into the other data structures in future guides in this series.
 
 ## Table of Contents
 
