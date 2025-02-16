@@ -25,7 +25,11 @@ media:
     href="https://unsplash.com/@thoughtcatalog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thought
     Catalog</a> on <a
     href="https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
-  caption: Caption of the image
+  caption: >-
+    Photo by <a
+    href="https://unsplash.com/@thoughtcatalog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Thought
+    Catalog</a> on <a
+    href="https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-505eectW54k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
   elementId: ''
   type: ImageBlock
 bottomSections:
