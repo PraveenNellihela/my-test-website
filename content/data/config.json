@@ -35,7 +35,7 @@
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
+                "altText": "GitLab",
                 "label": "GitLab",
                 "url": "https://gitlab.com/praveennellihela",
                 "icon": "github"
