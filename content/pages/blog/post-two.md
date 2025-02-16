@@ -16,7 +16,7 @@ excerpt: >-
   can learn better, more effectively and keep what you learned in your memory. 
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
+  url: /images/thought-catalog-505eectW54k-unsplash.jpg
   altText: Post thumbnail image
 media:
   url: /images/thought-catalog-505eectW54k-unsplash.jpg
