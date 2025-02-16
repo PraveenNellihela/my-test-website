@@ -198,3 +198,8 @@ The first quality index we will look at is called the *Correlation Coefficient*
 > [- Weisstein, Eric W.](https://en.wikipedia.org/wiki/Eric_W._Weisstein) [“Covariance”](https://mathworld.wolfram.com/Covariance.html). [*MathWorld*](https://en.wikipedia.org/wiki/MathWorld).
 
 This can be understood clearly by observing the image below.
+<p align="center">
+![](/images/1_8jws5-3rAmaRyNyN01MzDg.webp)
+<em>[The sign of the covariance of two random variables *X* and *Y*](https://en.wikipedia.org/wiki/Covariance)</em>
+</p>
+
