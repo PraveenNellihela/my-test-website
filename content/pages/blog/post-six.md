@@ -4,9 +4,7 @@ title: "Clustering Algorithm Fundamentals and an Implementation in Python \U0001
 colors: colors-a
 date: '2022-09-01'
 author: content/data/team/doris-soto.json
-excerpt: >-
-  The unsupervised process of creating groups of data containing similar
-  elements
+excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image6.jpg
