@@ -27,14 +27,15 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
+                "label": "LinkedIn",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/praveen-nellihela/",
+                "icon": "linkedin",
+                "elementId": ""
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
+                "altText": "GitLab",
                 "label": "GitLab",
                 "url": "https://gitlab.com/praveennellihela",
                 "icon": "github"
