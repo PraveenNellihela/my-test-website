@@ -127,6 +127,13 @@ media:
     href="https://unsplash.com/photos/white-and-orange-plastic-chairs-odoykoPOF3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>     
     f the image
   elementId: ''
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 100
 ---
 > This post was [originally published ](https://medium.com/towards-data-science/feature-selection-choosing-the-right-features-for-your-machine-learning-algorithm-379bda9f3e05)in the Towards Data Science Publication on Medium.
 
