@@ -7,7 +7,7 @@ excerpt: >-
   to understand. Let's try to do that in this post.
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
+  url: /images/xavi-cabrera-kn-UmDZQDjM-unsplash.jpg
   altText: Post thumbnail image
   caption: Caption of the image
   elementId: ''
