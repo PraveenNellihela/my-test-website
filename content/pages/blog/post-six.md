@@ -169,4 +169,11 @@ Given a set of n data points, the objective of the k-means algorithm is to parti
 
 Now, let us implement one of the algorithms discussed above and visualize the resulting clusters. For this, we will use the k-means algorithm and scikit-learn. The code was inspired by and contains code found in the demo of K-Means clustering on the handwritten digits data provided by [scikit-learn examples](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html#sphx-glr-auto-examples-cluster-plot-kmeans-digits-py).
 
+
+<p align="center">
 <iframe title="Embedded cell output" src="https://embed.deepnote.com/357a2b95-cccb-4ad3-8a01-ed8bd7db9d69/1b3224df89ff4045b682a7bd3f883566/1d9e862ba2444dfaa5de9902117148b2?height=1127" height="1127" width="500"/>
+</p>
+
+The output is shown in the image below.
+
+
