@@ -8,7 +8,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 40
+  opacity: 33
 date: '2022-07-29'
 author: content/data/team/doris-soto.json
 excerpt: >-
