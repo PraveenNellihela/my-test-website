@@ -12,7 +12,7 @@ backgroundImage:
 sections:
   - elementId: ''
     colors: colors-f
-    backgroundSize: full
+    backgroundSize: inset
     title: Welcome.
     subtitle: "I was an Electrical and Electronic Engineer -> Software Developer -> now, a Devops Engineer.\_Here, you will find my thoughts, hard earned achievements, and everything in between."
     styles:
