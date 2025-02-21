@@ -4,20 +4,17 @@ title: Home
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/bg.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 33
+  opacity: 51
 sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
     title: Welcome.
-    subtitle: >-
-      I was an Electrical and Electronic Engineer -> Software Developer -> now,
-      a Devops Engineer. Born in Sri Lanka -> working in Germany. Here, you will
-      find my thoughts, hard earned achievements, and everything in between.
+    subtitle: "I was an Electrical and Electronic Engineer -> Software Developer -> now, a Devops Engineer.\_Here, you will find my thoughts, hard earned achievements, and everything in between."
     styles:
       self:
         height: auto
@@ -45,6 +42,7 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+    text: ''
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
