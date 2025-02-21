@@ -1,0 +1,109 @@
+{
+    "model": "ContactSection",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "get in touch",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "1"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Got an interesting project? Tell me more...💬",
+                "text": null,
+                "form": {
+                    "$$type": "FormBlock",
+                    "title": null,
+                    "fields": [
+                        {
+                            "$$type": "TextFormControl",
+                            "name": "firstName",
+                            "label": "First Name",
+                            "hideLabel": true,
+                            "placeholder": "First Name",
+                            "width": "1/2",
+                            "isRequired": true
+                        },
+                        {
+                            "$$type": "TextFormControl",
+                            "name": "lastName",
+                            "label": "Last Name",
+                            "hideLabel": true,
+                            "placeholder": "Last Name",
+                            "width": "1/2",
+                            "isRequired": false
+                        },
+                        {
+                            "$$type": "EmailFormControl",
+                            "name": "email",
+                            "label": "Email",
+                            "hideLabel": true,
+                            "placeholder": "Email",
+                            "width": "1/2",
+                            "isRequired": true
+                        },
+                        {
+                            "$$type": "TextFormControl",
+                            "name": "address",
+                            "label": "Address",
+                            "hideLabel": true,
+                            "placeholder": "Address",
+                            "width": "1/2",
+                            "isRequired": true
+                        },
+                        {
+                            "$$type": "CheckboxFormControl",
+                            "name": "updatesConsent",
+                            "label": "Sign me up to recieve updates",
+                            "width": "full",
+                            "isRequired": false
+                        }
+                    ],
+                    "submitLabel": "Submit 🚀",
+                    "elementId": "sign-up-form",
+                    "styles": {
+                        "submitLabel": {
+                            "textAlign": "center"
+                        }
+                    }
+                },
+                "media": null,
+                "colors": "colors-f",
+                "backgroundSize": "full",
+                "elementId": null,
+                "styles": {
+                    "self": {
+                        "height": "auto",
+                        "width": "narrow",
+                        "margin": [
+                            "mt-0",
+                            "mb-0",
+                            "ml-0",
+                            "mr-0"
+                        ],
+                        "padding": [
+                            "pt-24",
+                            "pb-24",
+                            "pr-4",
+                            "pl-4"
+                        ],
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "flexDirection": "row"
+                    },
+                    "title": {
+                        "textAlign": "left"
+                    },
+                    "text": {
+                        "textAlign": "left"
+                    }
+                }
+            },
+            "thumbnail": "images/contact-section-get-in-touch-63c5.png"
+        }
+    ]
+}
