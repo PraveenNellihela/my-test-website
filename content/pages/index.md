@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 62
 sections:
   - elementId: ''
-    colors: colors-b
+    colors: colors-f
     backgroundSize: full
     title: Welcome.
     subtitle: "I was an Electrical and Electronic Engineer -> Software Developer -> now, a Devops Engineer.\_Here, you will find my thoughts, hard earned achievements, and everything in between."
