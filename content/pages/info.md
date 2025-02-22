@@ -19,7 +19,7 @@ sections:
     media:
       type: ImageBlock
       url: /images/IMG_1587.JPEG
-      altText: Hero image
+      altText: prof image
     styles:
       self:
         height: auto
