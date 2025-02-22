@@ -86,7 +86,7 @@ sections:
     columns: 5
     aspectRatio: auto
     showCaption: false
-    enableHover: true
+    enableHover: false
     styles:
       self:
         width: wide
