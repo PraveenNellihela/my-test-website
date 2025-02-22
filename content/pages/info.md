@@ -58,46 +58,6 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-  - type: MediaGallerySection
-    colors: colors-f
-    subtitle: 'I worked with these folks:'
-    images:
-      - type: ImageBlock
-        url: /images/csm_csm_Universitaet_Bremen_c3190972fe_e6310ff9b9.png
-        altText: Logo one
-        caption: Logo one
-      - type: ImageBlock
-        url: /images/IqAoP6D6PKkQmDNUTmpVMu8MrQX1662462104845_200x200.png
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/SLIIT_Logo_Crestsmall.png
-        altText: altText of the image
-        caption: Caption of the image
-        elementId: ''
-    spacing: 3
-    columns: 5
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
   - type: DividerSection
     styles:
       self:
