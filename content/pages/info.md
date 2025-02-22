@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     text: >
       I was born and raised in Sri Lanka. When I’m not coding or tinkering with
-      tech, I like to code and tinker with tech. Also, I love travelling.
+      tech, I like to travel.
     media:
       type: ImageBlock
       url: /images/IMG_1587.JPEG
