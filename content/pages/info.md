@@ -71,7 +71,7 @@ sections:
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: /images/logo5.svg
+        url: /images/SLIIT_Logo_Crestsmall.png
         altText: Logo five
         caption: Logo five
     spacing: 3
