@@ -71,8 +71,7 @@ sections:
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: >-
-          https://assets.stackbit.com/components/images/default/default-image.png
+        url: /images/SLIIT_Logo_Crestsmall.png
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
