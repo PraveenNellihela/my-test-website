@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Welcome.
-    subtitle: "I was an Electrical and Electronic Engineer -> Software Developer -> now, a Devops Engineer.\_Here, you will find my thoughts, hard earned achievements, and everything in between."
+    subtitle: "I am an Electrical and Electronics Engineer turned Software Developer. Currently, I work in the DevOps field.\_Here, you will find my thoughts, hard earned achievements, and everything in between."
     styles:
       self:
         height: auto
