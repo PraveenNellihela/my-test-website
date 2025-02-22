@@ -30,7 +30,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 0
+  opacity: 2
 author: content/data/team/doris-soto.json
 ---
 > This post was [originally posted ](https://medium.com/towards-artificial-intelligence/k-nearest-neighbors-algorithm-a-simple-overview-e0114059d19c)under Medium, published under the Towards AI publication.
