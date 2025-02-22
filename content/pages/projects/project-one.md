@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Heart Disease Prediction
-colors: colors-a
+colors: colors-b
 date: '2022-01-29'
 client: ''
 description: >-
