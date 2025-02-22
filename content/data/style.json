@@ -43,7 +43,7 @@
         "size": "xl",
         "weight": "medium",
         "decoration": "none",
-        "case": "uppercase",
+        "case": "capitalize",
         "letterSpacing": "normal"
     },
     "h6": {
