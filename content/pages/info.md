@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     text: >
       I was born and raised in Sri Lanka. When I’m not coding or tinkering with
-      tech, I like to play games. listen to music and travel around the world.
+      tech, I like to play games, listen to music and travel around the world.
     media:
       type: ImageBlock
       url: /images/IMG_1587.JPEG
