@@ -15,7 +15,7 @@
         "size": "6xl",
         "weight": "medium",
         "decoration": "none",
-        "case": "capitalize",
+        "case": "none",
         "letterSpacing": "normal"
     },
     "h2": {
