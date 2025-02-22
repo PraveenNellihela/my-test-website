@@ -29,7 +29,7 @@
         "size": "4xl",
         "weight": "normal",
         "decoration": "none",
-        "case": "uppercase",
+        "case": "capitalize",
         "letterSpacing": "normal"
     },
     "h4": {
