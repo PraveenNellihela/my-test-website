@@ -70,10 +70,6 @@ sections:
         url: /images/IqAoP6D6PKkQmDNUTmpVMu8MrQX1662462104845_200x200.png
         altText: Logo two
         caption: Logo two
-      - type: ImageBlock
-        url: /images/SLIIT_Logo_Crestsmall.png
-        altText: Logo five
-        caption: Logo five
     spacing: 3
     columns: 5
     aspectRatio: auto
